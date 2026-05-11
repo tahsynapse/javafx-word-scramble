@@ -1,0 +1,16 @@
+/* Styles for letter buttons: transparent border by default, blue border on hover */
+.letter-button {
+    -fx-border-color: transparent;
+    -fx-border-radius: 8;
+    -fx-border-width: 2;
+    -fx-background-radius: 8;
+}
+.letter-button:hover {
+    -fx-border-color: #2a6df4; /* blue */
+}
+
+/* Also make sure focused state doesn't show unwanted border (we disable focusTraversable in controller) */
+.letter-button:focused {
+    -fx-border-color: transparent;
+}
+
