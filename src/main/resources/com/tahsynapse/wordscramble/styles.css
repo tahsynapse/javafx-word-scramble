@@ -6,7 +6,7 @@
     -fx-background-radius: 8;
 }
 .letter-button:hover {
-    -fx-border-color: #2a6df4; /* blue */
+    -fx-border-color: #417df3; /* blue */
 }
 
 /* Also make sure focused state doesn't show unwanted border (we disable focusTraversable in controller) */
